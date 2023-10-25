@@ -1,0 +1,25 @@
+.lists{
+    color:black; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px; 
+    margin-right: 510px;
+    font-size: 12px;
+    padding-left: 150px;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+ }
+.second{
+    margin-top: 55px;
+    font-size: 15px;
+    display: flex;
+    color: black;
+    font-family: Poppins;
+    font-weight: 600;
+    gap: 55px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
