@@ -5,7 +5,7 @@ import  litespeed from "../../assets/litespeed.svg"
 import  softaculs from "../../assets/softaculs.svg"
 import  wordpress from "../../assets/wordpress.svg"
 import  cloudflair from "../../assets/cloudflair.svg"
-function BannerSecond(props) {
+function BannerSecond() {
   return (
         <div className="self-stretch mt-24 px-5 max-md:max-w-full max-md:mt-10">
           <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
