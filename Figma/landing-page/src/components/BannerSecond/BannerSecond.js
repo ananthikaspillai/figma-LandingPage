@@ -16,11 +16,7 @@ function BannerSecond() {
                 </div>
                 <div className="text-zinc-900 text-lg leading-[177.778%] mt-6 max-md:max-w-full">
                   <br />
-                  True Cloud Web Hosting All of the hosting packages we offer are
-                  deployed instantly on our SSD powered cloud. We don’t use
-                  dedicated servers that operate on single pieces of hardware. Our
-                  entire infrastructure is built to be reliable, secure, and
-                  scalable.
+                  True Cloud Web Hosting All of the hosting packages we offer aredeployed instantly on our SSD powered cloud. We don’t usededicated servers that operate on single pieces of hardware. Ourentire infrastructure is built to be reliable, secure, andscalable.
                   <br />
                   <br />
                 </div>

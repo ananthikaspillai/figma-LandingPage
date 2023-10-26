@@ -44,7 +44,7 @@ return (
         <div className="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
           <div className="flex grow flex-col max-md:mt-10">
             <img
-             sr={certificates}
+             src={certificates}
               className="aspect-[1.01] object-cover object-center w-[101px] overflow-hidden self-center max-w-full"
             />
             <div className="text-black text-center text-xl font-bold self-center mt-6">
