@@ -51,13 +51,13 @@ function NavBar() {
       <div className="text-black text-base font-semibold mt-[35px]">Contact </div>
     </div>
     <div className="self-center flex items-start justify-between gap-1.5 my-auto max-md:justify-center">
-      <div className="text-black text-base font-semibold self-center my-auto mt-[34px]">
+      <div className="text-black text-base font-semibold self-center my-auto mt-[34px] ml-[10px] mr-[20px]">
         Account
       </div>
       <div className="bg-zinc-300 self-stretch flex w-px h-[19px] flex-col" />
       <img
       src={phone}
-        className="aspect-square object-cover object-center w-[20px] overflow-hidden self-stretch max-w-full"
+        className="aspect-square object-cover object-center w-[20px] h-[20px] mt-[35px] overflow-hidden self-stretch max-w-full"
       />
       <div className="text-black text-base font-semibold leading-[93.75%]">
         <br />
