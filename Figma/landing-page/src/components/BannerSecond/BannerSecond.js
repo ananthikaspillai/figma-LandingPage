@@ -7,64 +7,66 @@ import  wordpress from "../../assets/wordpress.svg"
 import  cloudflair from "../../assets/cloudflair.svg"
 function BannerSecond() {
   return (
-        <div className="self-stretch mt-[100px] px-5 ">
-          <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+        <div className=" mt-[80px] px-3 gap-5 flex max-md:flex-col  ">
+          {/* <div className="gap-5 flex max-md:flex-col "> */}
             <div className="flex flex-col items-stretch w-[49%] max-md:w-full max-md:ml-0">
               <div className="flex grow flex-col max-md:max-w-full max-md:mt-10">
                 <div className="text-zinc-900 text-4xl font-extrabold w-[594px] h-[65px]  ">
                  <h1 className="mr-[75px] "> True Cloud Web Hosting </h1>
                 </div>
-                <div className="text-zinc-900 text-lg leading-[177.778%] mt-6 max-md:max-w-full">
-                  True Cloud Web Hosting All of the hosting packages we offer aredeployed instantly on our SSD powered cloud. We don’t usededicated servers that operate on single pieces of hardware. Ourentire infrastructure is built to be reliable, secure, andscalable.
-                  <br />
-                  <br />
+                <div className="text-zinc-900  w-[570px] h-[200px] leading-[177%] mt-2">
+                 <h1 className="mr-[30px]"> True Cloud Web Hosting All of the hosting packages we offer are </h1> 
+                 <h1 className="mr-[65px]">deployed instantly on our SSD powered cloud. We don’t use </h1>
+                 <h1 className="mr-[30px]"> dedicated servers that operate on single pieces of hardware. Our </h1>
+                  <h1 className="mr-[50px]"> entire infrastructure is built to be reliable, secure, andscalable. </h1>
                 </div>
               </div>
             </div>
-            <div className="flex flex-col items-stretch w-[51%] ml-5 max-md:w-full max-md:ml-0">
-              <div className="grow my-auto max-md:max-w-full max-md:mt-10">
-                <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-                  <div className="flex flex-col items-stretch w-[34%] max-md:w-full max-md:ml-0">
-                    <div className="flex grow flex-col mt-2 max-md:mt-10">
+            <div className="flex flex-col items-stretch w-[51%] ml-5 ">
+              {/* <div className="grow my-auto max-md:max-w-full max-md:mt-10"> */}
+                <div className="gap-5 flex max-md">
+                  <div className="flex flex-col items-stretch ">
+
+                    <div className="flex grow flex-col  mr-20">
                       <img
                         src={panel}
-                        className="aspect-[4.7] object-cover object-center w-[141px] overflow-hidden self-center max-w-full"
+                        className=" w-[140px]  h-[30px] "
                       />
                       <img
                         src={softaculs}
-                        className="aspect-[1.87] object-cover object-center w-full overflow-hidden self-stretch grow mt-14 max-md:mt-10"
+                        className="w-[160px] overflow-hidden self-stretch grow mt-14 "
                       />
                     </div>
                   </div>
-                  <div className="flex flex-col items-stretch w-[38%] ml-5 max-md:w-full max-md:ml-0">
-                    <div className="flex flex-col mt-1 max-md:mt-10">
+                  <div className="flex flex-col ">
+                    <div className="flex flex-col ">
                       <img
                         src={imunify}
-                        className="aspect-[2.5] object-cover object-center w-[125px] overflow-hidden self-center max-w-full"
+                        className=" w-[125px] h-[50px]  mr-[60px] "
                       />
                       <img
                         src={wordpress}
-                        className="aspect-[3] object-cover object-center w-full overflow-hidden self-stretch grow mt-14 max-md:mt-10"
+                        className="  w-[150px] overflow-hidden self-stretch grow mt-14 "
                       />
                     </div>
                   </div>
-                  <div className="flex flex-col items-stretch w-[28%] ml-5 max-md:w-full max-md:ml-0">
-                    <div className="flex flex-col max-md:mt-10">
+                  <div className="flex flex-col items-stretch w-[28%] mr-20">
+                    <div className="flex flex-col ">
                       <img
                         src={litespeed}
-                        className="aspect-[2.31] object-cover object-center w-[125px] overflow-hidden max-w-full"
+                        className="  w-[125px] h-[53px] "
                       />
                       <img
                         src={cloudflair}
-                        className="aspect-[3.04] object-cover object-center w-full overflow-hidden grow mt-14 max-md:mt-10"
+                        className="  w-[140px] overflow-hidden grow mt-[41px] "
                       />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          // </div>
+        // </div>
       );
     }
     

@@ -5,13 +5,13 @@ import certificates from "../../assets/certificates.svg"
 import support from "../../assets/support.svg"
 function BannerThird() {
 return (
-    <div className="self-center w-full max-w-[1180px] mt-28 px-5 max-md:max-w-full max-md:mt-10">
-      <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-        <div className="flex flex-col items-stretch w-[24%] max-md:w-full max-md:ml-0">
-          <div className="flex grow flex-col mt-1.5 max-md:mt-10">
+    <div className="self-center w-full max-w-[1180px] mt-[7px] px-4">
+      <div className="gap-5 flex max-md:flex-col ">
+        <div className=" w-[24%] ">
+          <div className="flex grow flex-col ">
             <img
               src={uptime}
-              className="aspect-[1.01] object-cover object-center w-[101px] overflow-hidden self-center max-w-full"
+              className="aspect-[1.01] object-cover object-center w-[101px] overflow-hidden self-center max-w-full "
             />
             <div className="text-black text-xl font-bold self-center mt-5">
               99.9% Uptime
@@ -19,8 +19,7 @@ return (
             <div className="text-black text-center text-xs font-light mt-3">
               We Keep Your Web build Online 24x7x365.
               <br />
-              Downtime not only costs you lost visitors but also damages your
-              reputation and search engine rankings.
+              Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.
             </div>
           </div>
         </div>
